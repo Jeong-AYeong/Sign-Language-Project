@@ -25,7 +25,7 @@
 ```bash
 Flask==2.2.2
 opencv-python==4.6.0.66
-mediapipe==0.9.0.1
+mediapipe==0.8.9.1
 ```
 
 ### Install

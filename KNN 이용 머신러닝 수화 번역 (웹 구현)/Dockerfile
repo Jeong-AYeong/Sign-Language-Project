@@ -1,4 +1,4 @@
-FROM python:3.10.8-bullseye
+FROM python:3.7-bullseye
 EXPOSE 8000
 WORKDIR /app
 COPY . /app

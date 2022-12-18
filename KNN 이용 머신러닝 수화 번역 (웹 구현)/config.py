@@ -1,6 +1,7 @@
 class Config:
-    trained_data_path = './worddata.csv'
+    trained_data_path = "/Users/kimcheolho/Desktop/수업/Sign-Language-Project/KNN 이용 머신러닝 수화 번역 (웹 구현)/worddata.csv"
     font_path = "./SCDream9.otf"
+
 
 class Vector:
     joint_v1 = [
@@ -51,8 +52,8 @@ class Vector:
 
 gesturelist = {
     0: "좋아",
-    1: "예뻐",
-    2: "무엇을 해도",
+    1: "무엇을 해도",
+    2: "예뻐",
     3: "너가",
     4: "나는",
     5: "빈칸2",

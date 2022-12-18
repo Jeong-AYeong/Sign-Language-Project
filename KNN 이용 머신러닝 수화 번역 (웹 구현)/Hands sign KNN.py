@@ -15,8 +15,8 @@ mp_hands = mp.solutions.hands
 # 리스트 생성
 gesturelist = {
     0: "좋아",
-    1: "예뻐",
-    2: "무엇을 해도",
+    1: "무엇을 해도",
+    2: "예뻐",
     3: "너가",
     4: "나는",
     5: "빈칸2",
@@ -40,7 +40,7 @@ gesturelist = {
 
 # 데이터 변수 설정
 file = np.genfromtxt(
-    "/Users/kimcheolho/Desktop/수업/2학년 2학기/오픈소스 활용/Project/Sign-Language-Project/worddata.csv",
+    "./worddata.csv",
     delimiter=",",
 )
 angle = file[:, :-1].astype(np.float32)

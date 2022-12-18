@@ -9,9 +9,8 @@ services:
       dockerfile: Dockerfile
     volumes:
       - .:/app
-    # devices: # work on linux maybe
-    #   - /dev/video1:/dev/video1
+    devices:
+      # work on linux
+      - /dev/video1:/dev/video1
     command: python main.py
     privileged: true
-    
-
