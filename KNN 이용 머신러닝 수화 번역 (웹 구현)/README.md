@@ -1,43 +1,12 @@
-# Sign-Language-Project-Translation-Learning-
+# Machine learning program with knn algotithm and build a webpage use flask, docker
 
-미디어파이프를 이용하여 파이썬으로 웹캠을 통해 수화를 인식하게 하는 것 만들어서 깃허브에 올리기
-+ 도커를 이용하여 연결시키기?
+Tf이용해 생성된 데이터셋으로 머신러닝 프로그램 구현
+openCV에서 제공되는 KNN알고리즘 객체를 이용하여 데이터셋 결과값과 매칭되는 단어 표시
 
-미디어파이프 기본예제 코드를 레포지토리에 복제하여 올림
+미디어파이프를 이용하여 videodata 를 input으로 받음
 
-손을 인식하게끔 하는 방법 = 미디어파이프를 이용하여 
-수화 인식하게 하는 학습 데이터셋을 구축할 방법 만들기
+플라스크를 이용해 local상에 webcam data를 출력하는 web.
 
--> 이때 티쳐블 머신 사용도 고려해볼것
-(미디어파이프에서 수화동작을 인식시키면 csv형태로 각 벡터값과 그 동작의 mean이 저장됨)
-이때 영상데이터로 학습시킬것인지 직접 하나씩 데이터를 학습시킬것인지 정해야함.
-
-데이터셋을 저장시킨 이후에 데이터 학습시킴
-
-이후 인식된 데이터셋으로 화면상에 문자가 출력되도록 만듦
-
-플라스크를 이용해 웹에 코드 동작하게끔 만들기
-
-이후 도커 이미지로 만들어 결과물 배포하기
-
-## Requirements
-
-```bash
-Flask==2.2.2
-opencv-python==4.6.0.66
-mediapipe==0.8.9.1
-```
-
-### Install
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-### On terminal
-
-```bash
-python main.py
-```
+도커 이미지로 만들어 결과물 배포.
+ 
+dockerfile과 docker-compose 참조.
